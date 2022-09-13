@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
+}
+
+body{
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    font-weight:1200;
+}
+
+h1 {
+    font-size: 96px;
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'Cinzel', serif;
+}
+

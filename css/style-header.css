@@ -1,0 +1,28 @@
+:root {
+    --home-color: ;
+    --about-color: ;
+    --contact-color: ;
+    --serice-color: ;
+    --shop-color: ;
+}
+
+
+#header {
+    height: 100vh;
+    background: rgb(31, 89, 116);
+}
+
+#arrow {
+    height: 73px;
+    width: 73px;
+    display: block;
+    margin: auto;
+
+}
+
+#nav-bar  {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+  
+}
