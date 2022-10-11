@@ -1,0 +1,26 @@
+#nav-bar-div {
+    background: #3237AE;
+}
+
+#header {
+
+    background-image: url(../img/about/header\ \(2\).png);
+
+
+}
+
+#description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 75px;
+    text-align: center;
+}
+#description h2{
+    width: 745px;
+    margin-left: 15px;
+}
+#description p{
+    width: 745px;
+    margin-left: 15px;
+}

@@ -6,11 +6,14 @@
     --shop-color: ;
 }
 
-
 #header {
     height: 100vh;
-    background: rgb(31, 89, 116);
+    background-size: cover cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
+
 
 #arrow {
     height: 73px;
@@ -20,9 +23,22 @@
 
 }
 
-#nav-bar  {
-    display:inline;
-    padding-left:3px;
-    padding-right:3px;
-  
+#nav-bar {
+    
+/* margin-top: 70vh; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    
+
+}
+
+li{
+    
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+a{
+    color: white;
 }
