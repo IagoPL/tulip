@@ -45,18 +45,32 @@
     justify-content: center;
 }
 
-#description{
+#description {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 75px;
     text-align: center;
 }
-#description h2{
+
+#description h2 {
     width: 745px;
     margin-left: 15px;
 }
-#description p{
+
+#description p {
+    margin-top: 50PX;
     width: 745px;
     margin-left: 15px;
+}
+
+#bg_concac {
+
+ 
+    background-image: url(/img/home/Contact.png);
+    width: 1763px;
+    height: 1039px;
+    margin-bottom: 50px;
+    align-items: center;
+    
 }

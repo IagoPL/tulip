@@ -24,3 +24,15 @@
     width: 745px;
     margin-left: 15px;
 }
+#mvv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#bg-mvv {
+    background-image: url(/img/about/objectives\ section.png);
+    width: 1704px;
+    height: 1039px;
+    margin-bottom: 50px;
+    align-items: center;
+}
