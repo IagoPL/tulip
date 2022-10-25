@@ -6,76 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style-header.css">
+    <link rel="stylesheet" href="/css/style-services.css">
+    <link rel="stylesheet" href="/css/style-general.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
+
     <section id="header">
-        <ul calss="nav-bar">
-            <li>
-                <a href="/index.html">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="About.html">
-                    About
-                </a>
-            </li>
-            <li>
-                <a href="Contact.html">
-                    Contact
-                </a>
-            </li>
-            <li>
-                <a href="services.html">
-                    Service
-                </a>
-            </li>
-            <li>
-                <Button>
-                    <a href="#">
-                        User
+        <div id="nav-bar-div">
+            <ul id="nav-bar">
+                <li>
+                    <a  class="btn btn-light" href="../index.html" active>
+                        Home
                     </a>
-                </Button>
-            </li>
-        </ul>
-        <img src="img/general/arrow.svg" alt="" id="arrow">
+                </li>
+                <li>
+                    <a  class="btn btn-light" href="About.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a  class="btn btn-light" href="Contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a  class="btn btn-light" href="services.html">
+                        Service
+                    </a>
+                </li>
+                <li>
+                    <Button class="btn btn-light">
+                        <a href="#">
+                            User
+                        </a>
+                    </Button>
+                </li>
+            </ul>
+        </div>
+        <img src="/img/general/arrow.svg" alt="" id="arrow">
     </section>
-    <Section id="service">
-        <div id="service1">
-            <div class="img-service service1">
-
-            </div>
-            <h2>Service 1</h2>
+    <div class="container text-center">
+        <div class="row row-cols-2">
+          <div class="col service-description">Column</div>
+          <div class="col service-img">Column</div>
+          <div class="col service-description">Column</div>
+          <div class="col service-img">Column</div>
+          <div class="col service-description">Column</div>
+          <div class="col service-img ">Column</div>
+          <div class="col service-description">Column</div>
+          <div class="col service-img">Column</div>
+          <div class="col service-description">Column</div>
+          <div class="col service-img">Column</div>
         </div>
-        <div id="service2">
-
-            <h2>Service 2</h2>
-            <div class="img-service service2">
-
-            </div>
-        </div>
-        <div id="service3">
-            <div class="img-service service3">
-
-            </div>
-            <h2>Service 3</h2>
-        </div>
-        <div id="service4">
-
-            <h2>Service 4</h2>
-            <div class="img-service service4">
-
-            </div>
-        </div>
-        <div id="service5">
-            <div class="img-service service5">
-
-            </div>
-            <h2>Service 5</h2>
-        </div>
-
-    </Section>
+      </div>
 </body>
 
 </html> 

@@ -54,3 +54,10 @@ a {
     display: flex;
     justify-content: center;
 }
+
+#nav-bar-div{
+    height: 50px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    
+}

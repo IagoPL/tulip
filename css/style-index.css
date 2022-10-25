@@ -1,11 +1,19 @@
-#nav-bar-div {
-    background: #af2d8b;
-}
+
 
 #header {
-
-    background-image: url(../img/home/header.svg);
-
+    overflow: hidden;
+    align-items: center;
+    background-color: var(--white);
+    background: url("../img/home/header.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    /* background-image: url(../img/home/header.png);
+   background-position: center; */
 
 }
 
